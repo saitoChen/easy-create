@@ -42,7 +42,7 @@ function createFile(uri){
     const curLang = uri.split('/').slice(-1)[0].split('.').slice(-1)[0]
     let content = ''
     if (curLang) {
-      content = lang[curLang]
+      content = lang[curLang] || ''
     }
     writeFile(uri, content)
   } else {
