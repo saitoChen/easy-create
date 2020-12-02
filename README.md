@@ -30,10 +30,15 @@ none
 
 暂无
 
-### 1.0.0
+## What is New ?
+
+### 0.0.2
+
+fixed:修复vue，python以外得文件格式默认出现undefined文本得bug
+### 0.0.1
 
 Added features create file, create folders, Vue,python file bulit-in template
 
 新增创建文件，创建文件夹的功能，创建vue，python文件时内部会集成模板，后续语言文件会陆续添加
 
------------------------------------------------------------------------------------------------------------
+
