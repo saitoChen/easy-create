@@ -1,0 +1,1 @@
+module.exports = `#-*- codeing = utf-8 -*-`
