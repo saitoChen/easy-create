@@ -1,65 +1,39 @@
 # create-easy README
 
-This is the README for your extension "create-easy". After writing up a brief description, we recommend including the following sections.
+A plugin helps you to create file & folders
+
+快速创建文件或者文件夹的vscode插件
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+1. Keyboard Shortcut: `ctrl+shift+c` for win or `cmd+shift+c` for mac
 
-For example if there is an image subfolder under your extension project workspace:
+2. Right click exploer window and click `create file/folder` to open a panel and type path 
 
-\!\[feature X\]\(images/feature-x.png\)
+To create a file or folders just type `/path/subpath/file.name`(create file) or `/path/subpath`(create folder)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. 快捷键：win使用`ctrl+shift+c`，mac使用`cmd+shift+c`
+2. 在资源管理器窗口右键点击`create file/folder`可以打开窗口
+
+在窗口输入`/path/subpath/file.name`(创建文件) or `/path/subpath`(创建文件夹)
+
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+none
+
+暂无
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+none
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
+暂无
 
 ### 1.0.0
 
-Initial release of ...
+Added features create file, create folders, Vue,python file bulit-in template
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+新增创建文件，创建文件夹的功能，创建vue，python文件时内部会集成模板，后续语言文件会陆续添加
 
 -----------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

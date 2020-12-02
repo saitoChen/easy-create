@@ -1,7 +1,8 @@
 {
   "name": "create-easy",
 	"displayName": "Create-Easy",
-	"description": "easy  to create a file/folder",
+	"description": "easy to create a file/folder",
+	"publisher": "chenjianfeng",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.51.0"
