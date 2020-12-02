@@ -17,6 +17,7 @@ To create a file or folders just type `/path/subpath/file.name`(create file) or 
 
 在窗口输入`/path/subpath/file.name`(创建文件) or `/path/subpath`(创建文件夹)
 
+![How to use](./img/pic.png)
 
 ## Requirements
 
