@@ -3,7 +3,7 @@
 	"displayName": "Create-Easy",
 	"description": "easy to create a file/folder",
 	"publisher": "chenjianfeng",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.51.0"
 	},

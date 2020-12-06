@@ -17,7 +17,7 @@ To create a file or folders just type `/path/subpath/file.name`(create file) or 
 
 在窗口输入`/path/subpath/file.name`(创建文件) or `/path/subpath`(创建文件夹)
 
-![How to use](./img/pic.png)
+![How to use](https://raw.githubusercontent.com/saitoChen/easy-create/master/img/pic.png)
 
 ## Requirements
 
@@ -33,7 +33,11 @@ none
 
 ## What is New ?
 
-### 0.0.2
+### 0.0.4
+updated: built-in html template
+创建.html文件内置html模板
+
+### 0.0.3
 
 fixed:修复vue，python以外得文件格式默认出现undefined文本得bug
 ### 0.0.1
