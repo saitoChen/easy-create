@@ -11,7 +11,7 @@ function openModal(
     value,
     prompt,
     ignoreFocusOut,
-    /* valueSelection: [-1, -1] */
+    valueSelection: [-1, -1]
   })
   .then(createPath => {
     let basePath = createPath
@@ -26,7 +26,7 @@ function openModal(
 
 function init(uri){
   uri = uri || vscode.workspace.workspaceFolders[0].uri.fsPath
-  uri = uri.replace(/\\/g, '/')
+  uri = uri.replace(/\\/g, '/') + '/'
   openModal(uri)
 }
 
