@@ -33,6 +33,11 @@ none
 
 ## What is New ?
 
+### 0.0.5
+cancel highlight when inputbox show & add / at the end of the path
+1. showInputBox框弹出时取消文字全选的高亮
+2. 展示默认路径时结尾自动添加了`/`
+
 ### 0.0.4
 updated: built-in html template
 创建.html文件内置html模板
